@@ -12,7 +12,7 @@ def matx_multi(A, B, N):
     for i in range(N):
         for j in range(N):
             for k in range(N):
-                C[i][j] += A[i][k] * B[k][j]
+                multi[i][j] += A[i][k] * B[k][j]
     return multi
 
 for N in N_val:
