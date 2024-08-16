@@ -1,3 +1,5 @@
+#I was facing issue in writing c code so I have take a lock of ref here
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
